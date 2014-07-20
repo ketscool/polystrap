@@ -13,7 +13,7 @@ What? Why?
 +	**What**: Polystrap is my try to create a HTML responsive front end using bootstrap but with effects similar to Google Material design paper elements.
 +	**Why**: Developing web components using ruby npm bower etc etc is for geeks and real nerds.
 But what about pseudo nerds who are geeks yet at the same time they also need to spend time with booze and broad?
-My these effort is for the pseudo nerd community.
+My these efforts are for the pseudo nerds community.
 Easy to use/integrate responsive HTML template with look & feel like Google material design paper elements
 
 Technologies
@@ -46,6 +46,7 @@ To Do List
 -------------
 Continuation of development will include priority level items such as:
 + Fixing horizontal scrollbar when drawer menu is pulled
++ Need to spend bit more time on Top search bar
 + Upgrade to bootstrap 3.2.0
 + Create scaffolding
 + Create more animated effects
