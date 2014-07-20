@@ -1,6 +1,5 @@
 /*!
  * Polystrap v3.0.1.1 (https://github.com/ketscool/polystrap)
- * Author Ketan Thakkar
  * Date 2014-07-19
  * Copy-rightly 2014
  * Licensed under PNL (Pseudo Nerds License)
