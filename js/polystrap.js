@@ -1,5 +1,5 @@
 /*!
- * Polystrap v3.0.1.1 (http://tuxindia.com)
+ * Polystrap v3.0.1.1 (https://github.com/ketscool/polystrap)
  * Author Ketan Thakkar
  * Date 2014-07-19
  * Copy-rightly 2014
@@ -32,4 +32,35 @@ $(function(){
     $('.hamburger').click(activateHamburger);
 });
 
+// RIPPLE EFFECT
+// ============================================================
+$(document).ready(function() {
+
+  'use strict';
+
+  var $ripples = $('.ripples');
+
+  $ripples.on('click.Ripples', function(e) {
+
+    var $this = $(this);
+    var $offset = $this.parent().offset();
+    var $circle = $this.find('.ripples__circle');
+
+    var x = e.pageX - $offset.left;
+    var y = e.pageY - $offset.top;
+
+    $circle.css({
+      top: y + 'px',
+      left: x + 'px'
+    });
+
+    $this.addClass('is-active');
+
+  });
+
+  $ripples.on('animationend webkitAnimationEnd oanimationend MSAnimationEnd', function(e) {
+  	$(this).removeClass('is-active');
+  });
+
+});
 

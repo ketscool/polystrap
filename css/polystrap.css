@@ -1,6 +1,5 @@
 /*!
- * Polystrap v3.0.1.1 (http://tuxindia.com)
- * Author Ketan Thakkar
+ * Polystrap v3.0.1.1 (https://github.com/ketscool/polystrap)
  * Date 2014-07-19
  * Copy-rightly 2014
  * Licensed under PNL (Pseudo Nerd License)
@@ -190,7 +189,7 @@ Font-weight: 700;
   margin: 20px;
 }
 .hamburger > div {
-  background: #03A9F4;
+  background: #4486f7;
   height: 4px;
   margin-bottom: 4px;
   float: left;
@@ -402,8 +401,29 @@ border-top: 1px solid rgba(0,0,0,0.25);
  * App Sidebar
  * ----------------------------------------------------
  */
+ .app-wrapper {
+	padding-top: 10px;
+ }
+ .app-wrapper ul, 
+ .app-wrapper ul li {
+	list-style: none;
+	width: 100%;
+ }
  
+ .app-wrapper ul li {
+	list-style: none;
+	width: 100%;
+	border-bottom: 1px solid #5C95E0;
+	text-align: left;
+ }
 
+ /* 
+ * Main Container
+ * ----------------------------------------------------
+ */
+ .main-content {
+	margin-top:
+ }
 
 /* 
  * Footer
@@ -450,3 +470,143 @@ border-top: 1px solid rgba(0,0,0,0.25);
  .s-shadow {
 	box-shadow: 1px 1px 1px 0px rgba(41, 41, 41, .3);
  }
+ 
+ .col-sidebar {
+	padding: 0px !important;
+ }
+
+ /* Basic button */
+ 
+ *,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.rbutton {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 0;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 0;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+.rbutton a {
+	color: #fff;
+	text-decoration:none;
+}
+.rbutton:focus {
+  outline: 0;
+}
+.rbutton:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Button modifier mixin */
+/* Button modifiers */
+.rbutton-purple {
+  background: #967adc;
+  text-shadow: 2px 2px 0 #7652d1;
+}
+.rbutton-purple:hover {
+  background: #8666d7;
+}
+
+.rbutton-blue {
+  background: #4a89dc;
+  text-shadow: 2px 2px 0 #276ecc;
+}
+.rbutton-blue:hover {
+  background: #357bd8;
+}
+
+.rbutton-green {
+  background: #8cc152;
+  text-shadow: 2px 2px 0 #72a53b;
+}
+.rbutton-green:hover {
+  background: #7fb842;
+}
+
+.rbutton-red {
+  background: #e9573f;
+  text-shadow: 2px 2px 0 #dc3519;
+}
+.rbutton-red:hover {
+  background: #e64328;
+}
+
+/* Ripples container */
+.ripples {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
+/* Ripples circle */
+.ripples__circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+.ripples.is-active .ripples__circle {
+  -webkit-animation: ripples .4s ease-in;
+  animation: ripples .4s ease-in;
+}
+
+/* Ripples animation */
+@-webkit-keyframes ripples {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    padding-bottom: 200%;
+    opacity: 0;
+  }
+}
+@keyframes ripples {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    padding-bottom: 200%;
+    opacity: 0;
+  }
+}
