@@ -10,8 +10,8 @@ This is first version of polystrap.
 
 What? Why?
 ------------
-+	What: Polystrap is my try to create a HTML responsive front end using bootstrap but with effects similar to Google Material design paper elements.
-+	Why: Developing web components using ruby npm bower etc etc is for geeks and real nerds.
++	**What**: Polystrap is my try to create a HTML responsive front end using bootstrap but with effects similar to Google Material design paper elements.
++	**Why**: Developing web components using ruby npm bower etc etc is for geeks and real nerds.
 But what about pseudo nerds who are geeks yet at the same time they also need to spend time with booze and broad?
 My these effort is for the pseudo nerd community.
 Easy to use/integrate responsive HTML template with look & feel like Google material design paper elements
@@ -28,7 +28,7 @@ Technologies
 
 
 Install Instructions
-=====================
+------------
 + Download / Pull All Files
 + Use nay/all part of the template
 + Come back and fork me
@@ -39,14 +39,14 @@ Change Log
 =====================
 v3.0.1.1
 -----------
-Fresh copy pushed to repo
+Fresh copy(under development) pushed to git repo
 
 
 To Do List
 -------------
 Continuation of development will include priority level items such as:
 + Fixing horizontal scrollbar when drawer menu is pulled
-+ Upgrading to bootstrap 3.2.0
-+ Creating scaffolding
-+ Creating more animated effects
++ Upgrade to bootstrap 3.2.0
++ Create scaffolding
++ Create more animated effects
 + Optimizing and segregating common classes/functions for re-usability
