@@ -10,10 +10,10 @@ This is first version of polystrap.
 
 What? Why?
 ------------
-+	**What**: Polystrap is my try to create a HTML responsive front end using bootstrap but with effects similar to Google Material design paper elements.
++	**What**: Polystrap is my idea to create HTML responsive front end using bootstrap but with effects similar to Google Material design paper elements.
 +	**Why**: Developing web components using ruby npm bower etc etc is for geeks and real nerds.
-But what about pseudo nerds who are geeks yet at the same time they also need to spend time with booze and broad?
-My these efforts are for the pseudo nerds community.
+But what about pseudo nerds ? They too are geeks but they also want to spend time with booze and broad?
+My these efforts are for such pseudo nerds.
 Easy to use/integrate responsive HTML template with look & feel like Google material design paper elements
 
 Technologies
